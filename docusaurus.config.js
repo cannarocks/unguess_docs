@@ -8,13 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'UNGUESS',
   tagline: 'Integration center',
-  url: 'https://cannarocks.github.io/unguess_docs/',
-  baseUrl: '/',
+  url: 'https://cannarocks.github.io/',
+  baseUrl: '/unguess_docs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'unguess', // Usually your GitHub org/user name.
-  projectName: 'unguess_docs', // Usually your repo name.
+  organizationName: 'cannarocks', // Usually your GitHub org/user name.
+  projectName: 'unguess_docs',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
