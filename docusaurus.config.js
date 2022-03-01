@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/cannarocks/unguess_docs/tree/master/docs',
+          editUrl: 'https://github.com/cannarocks/unguess_docs/tree/master',
           routeBasePath: '/',
         },
         theme: {
